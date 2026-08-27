@@ -1,0 +1,16 @@
+[
+  {
+    "hostname": "OP1",
+    "device_type": "Printer",
+    "vendor": "Brother",
+    "ip_address": "10.0.0.130",
+    "status": "Online"
+  },
+  {
+    "hostname": "OP2",
+    "device_type": "Printer",
+    "vendor": "Brother",
+    "ip_address": "10.0.0.131",
+    "status": "Online"
+  }
+]

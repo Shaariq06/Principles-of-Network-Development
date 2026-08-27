@@ -1,0 +1,17 @@
+[
+  {
+    "hostname": "API-SERVER",
+    "ip_address": "172.16.0.10",
+    "role": "REST API Server"
+  },
+  {
+    "hostname": "Auth-SERVER",
+    "ip_address": "172.16.0.40",
+    "role": "Authentication Server"
+  },
+  {
+    "hostname": "DATABASE-SERVER",
+    "ip_address": "172.16.0.20",
+    "role": "DataBase server"
+  }
+]

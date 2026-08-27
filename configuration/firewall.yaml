@@ -1,0 +1,6 @@
+hostname: FW1 
+vendor: Fortinet 
+ 
+security_zones: 
+ - internal 
+ - external 

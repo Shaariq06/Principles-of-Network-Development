@@ -1,0 +1,5 @@
+{ 
+   "hostname": "DATABASE-SERVER", 
+   "ip_address": "172.16.0.20", 
+   "role": "DataBase server" 
+} 

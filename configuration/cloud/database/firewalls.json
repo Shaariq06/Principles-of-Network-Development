@@ -1,0 +1,22 @@
+[
+  {
+    "hostname": "CLOUD-FW",
+    "vendor": "Fortinet",
+    "ip_address": "172.16.0.254",
+    "role": "Protect Cloud Services"
+  },
+  {
+    "hostname": "OFFICE-FW",
+    "vendor": "Fortinet",
+    "ip_address": "10.0.0.254",
+    "role": "Protect Office Network"
+  },
+  {
+    "hostname": "FW1",
+    "vendor": "Fortinet",
+    "management_ip": "192.168.1.254",
+    "default_policy": "deny",
+    "allowed_services": ["HTTPS", "SSH"],
+    "security_zones": ["internal", "external"]
+  }
+]
