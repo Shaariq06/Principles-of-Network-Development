@@ -1,0 +1,80 @@
+network_relationships:
+  home_network:
+    router:
+      hostname: HR1
+      connects_to:
+        - HL1
+        - HP1
+        - CLOUD-FW
+
+  office_network:
+    firewall:
+      hostname: OFFICE-FW
+      protects:
+        - office_network
+
+    routers:
+      - hostname: R1
+        connects_to:
+          - SW1
+          - R4
+
+      - hostname: R2
+        connects_to:
+          - SW2
+          - R3
+
+      - hostname: R3
+        connects_to:
+          - R2
+          - R4
+          - OFFICE-FW
+
+      - hostname: R4
+        connects_to:
+          - R1
+          - R3
+          - OFFICE-FW
+
+    switches:
+      - hostname: SW1
+        connects_to:
+          - PC1
+          - PC2
+          - PC3
+          - PC4
+          - LAPTOP1
+          - LAPTOP2
+          - LAPTOP3
+          - PHONE1
+          - PHONE2
+          - PRINTER1
+
+      - hostname: SW2
+        connects_to:
+          - PC5
+          - PC6
+          - PC7
+          - PC8
+          - LAPTOP4
+          - LAPTOP5
+          - LAPTOP6
+          - PHONE3
+          - PHONE4
+          - PRINTER2
+
+  cloud_network:
+    firewall:
+      hostname: CLOUD-FW
+      protects:
+        - cloud_network
+
+    servers:
+      - hostname: API-SERVER
+        communicates_with:
+          - AUTHENTICATION-SERVER
+          - DATABASE-SERVER
+
+      - hostname: AUTHENTICATION-SERVER
+
+      - hostname: DATABASE-SERVER

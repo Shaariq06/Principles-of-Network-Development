@@ -1,6 +1,6 @@
-{ 
-   "hostname": "R1", 
-   "vendor": "Cisco", 
-   "ip_address": "192.168.1.1", 
-   "role": "HomeGateway Router_1" 
-} 
+{
+  "hostname": "HR1",
+  "vendor": "Cisco",
+  "ip_address": "192.168.1.1",
+  "role": "HomeGateway Router_1"
+}
