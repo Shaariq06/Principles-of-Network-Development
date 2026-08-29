@@ -1,0 +1,7 @@
+hostname: FW1
+vendor: Fortinet
+management_ip: 192.168.1.254
+default_policy: deny
+allowed_services:
+  - HTTPS
+  - SSH

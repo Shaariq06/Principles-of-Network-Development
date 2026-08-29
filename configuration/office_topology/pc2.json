@@ -1,0 +1,7 @@
+{
+    "hostname": "PC2",
+    "device_type": "Desktop",
+    "department": "Finance",
+    "ip_address": "10.0.0.101",
+    "operating_system": "Windows 11"
+}

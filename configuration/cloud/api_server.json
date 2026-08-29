@@ -1,0 +1,5 @@
+{ 
+   "hostname": "API-SERVER", 
+   "ip_address": "172.16.0.10", 
+   "role": "REST API Server" 
+} 

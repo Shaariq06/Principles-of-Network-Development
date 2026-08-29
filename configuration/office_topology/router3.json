@@ -1,0 +1,6 @@
+{ 
+   "hostname": "R3", 
+   "vendor": "Cisco", 
+   "ip_address": "10.0.0.3", 
+   "role": "Core Router_3" 
+} 

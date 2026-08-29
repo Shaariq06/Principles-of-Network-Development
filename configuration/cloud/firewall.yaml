@@ -1,0 +1,4 @@
+hostname: CLOUD-FW
+vendor: Fortinet
+ip_address: 172.16.0.254
+role: Protect Cloud Services
