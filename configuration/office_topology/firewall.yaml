@@ -1,4 +1,0 @@
-hostname: OFFICE-FW 
-vendor: Fortinet 
-ip_address: 10.0.0.254 
-role: Protect Office Network 

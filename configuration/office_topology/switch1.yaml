@@ -1,7 +1,0 @@
-hostname: SW1 
-vendor: Cisco 
-management_ip: 10.0.0.10 
-vlans: 
- - 10 
- - 20 
- - 30 

@@ -1,6 +1,0 @@
-{ 
-   "hostname": "R1", 
-   "vendor": "Cisco", 
-   "ip_address": "192.168.1.1", 
-   "role": "Core Router" 
-} 
