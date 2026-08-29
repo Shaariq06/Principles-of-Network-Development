@@ -1,6 +1,6 @@
-hostname: FW1 
-vendor: Fortinet 
- 
-security_zones: 
- - internal 
- - external 
+hostname: FW1
+vendor: Cisco
+
+security_zones:
+  - internal
+  - external

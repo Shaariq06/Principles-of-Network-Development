@@ -1,4 +1,5 @@
 hostname: CLOUD-FW
-vendor: Fortinet
+vendor: Cisco
+model: ASA 5506-X
 ip_address: 172.16.0.254
 role: Protect Cloud Services
