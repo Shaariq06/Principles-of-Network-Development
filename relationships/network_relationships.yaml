@@ -43,12 +43,12 @@ network_relationships:
           - PC2
           - PC3
           - PC4
-          - LAPTOP1
-          - LAPTOP2
-          - LAPTOP3
-          - PHONE1
-          - PHONE2
-          - PRINTER1
+          - Laptop1
+          - Laptop2
+          - Laptop3
+          - IP Phone1
+          - IP Phone2
+          - Printer1
 
       - hostname: SW2
         connects_to:
@@ -56,12 +56,12 @@ network_relationships:
           - PC6
           - PC7
           - PC8
-          - LAPTOP4
-          - LAPTOP5
-          - LAPTOP6
-          - PHONE3
-          - PHONE4
-          - PRINTER2
+          - Laptop4
+          - Laptop5
+          - Laptop6
+          - IP Phone3
+          - IP Phone4
+          - Printer2
 
   cloud_network:
     firewall:
@@ -72,9 +72,9 @@ network_relationships:
     servers:
       - hostname: API-SERVER
         communicates_with:
-          - AUTHENTICATION-SERVER
+          - AUTH-SERVER
           - DATABASE-SERVER
 
-      - hostname: AUTHENTICATION-SERVER
+      - hostname: AUTH-SERVER
 
       - hostname: DATABASE-SERVER
